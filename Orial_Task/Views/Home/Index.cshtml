@@ -1,0 +1,44 @@
+﻿<div class="jumbotron">
+    <div id="errdiv" class="hidden">
+        <p style="color:red"><label id="err"></label></p>
+    </div>
+    <label>Select language</label>
+    <select name="language" class="form-control" id="language">
+        <option value="1">Arabic</option>
+        <option value="2">English</option>
+        
+    </select>
+    <button class="btn btn-primary btn-lg" style="margin-top:20px;" id="GetProfile">GetProfile</button>
+
+    <div class="col-lg-3 col-lg-offset-11" style="margin-top:-50px;">
+<button type="button"  class="btn btn-danger btn-lg hidden" id="replog">Log off</button>
+    </div>
+
+</div>
+<div id="loader">
+    <div>
+
+    </div>
+</div>
+<div class="well well-sm hidden" id="divdata">
+    <div class="row">
+        
+        <div class="col-sm-6 col-md-8">
+            
+            <small>
+                <cite >
+                    <i class="glyphicon glyphicon-map-marker">
+                    </i>  <label style="font-size:20px;" id="address"></label> 
+                </cite>
+            </small>
+            <p>
+                <i class="glyphicon glyphicon-envelope"></i><label style="font-size:20px;" id="email"></label>
+                <br />
+                <i class="glyphicon glyphicon-phone"></i><label style="font-size:20px;" id="phone"></label>
+                
+            </p>
+            
+        </div>
+    </div>
+</div>
+

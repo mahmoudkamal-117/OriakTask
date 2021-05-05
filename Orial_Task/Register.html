@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <link href="Content/MySite.css" rel="stylesheet" />
+    <div class="social-container hidden" id="MessageR">
+        <label id="MessageTextR" style="color:red"></label>
+    </div>
+    <h2>Welcome: Sign in/up Form</h2>
+    <div class="container" id="container">
+        <div id="loader" class="text-center">
+            <div>
+
+            </div>
+        </div>
+        <div class="form-container sign-up-container">
+            <form>
+                <h1>Create Account</h1>
+
+
+                <input id="email" class="req" name="email" type="email" placeholder="Email" />
+                <input id="ArAddress" class="req" name="ArAddress" placeholder="Address in Arabic" />
+                <input id="EnAddress" class="req" name="EnAddress" placeholder="Address in English" />
+                <input id="PhoneNumber" class="req" name="PhoneNumber" placeholder="enter your PhoneNumber" />
+                <input id="password" class="req" name="password" type="password" placeholder="Password" />
+                <input id="ConfirmPassword" class="req" name="ConfirmPassword" type="password" placeholder="ConfirmPassword" />
+
+
+
+
+                <button type="button" id="Register">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form>
+                <h1>Sign in</h1>
+                <div class="social-container hidden" id="Message">
+                    <label id="MessageText"></label>
+                </div>
+
+                <input id="logusername" class="reqlog" type="email" placeholder="username" />
+                <input id="logpassword" class="reqlog" type="password" placeholder="Password" />
+
+                <button id="Login">Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button type="button" class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Created <i class="fa fa-heart"></i> by
+            Mahmoud-Kamal.
+        </p>
+    </footer>
+
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/MyScript.js"></script>
+
+
+
+</body>
+</html>
